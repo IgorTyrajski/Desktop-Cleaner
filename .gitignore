@@ -1,0 +1,46 @@
+### PyCharm (JetBrains) ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.txt
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.toast
+.buildpath
+.project
+.spyderproject
+.settings
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+### Zmienne środowiskowe (Hasła, klucze API) ###
+.env
+.venv
+env/
+venv/
+ENV/
