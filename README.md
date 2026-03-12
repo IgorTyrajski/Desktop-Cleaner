@@ -1,1 +1,1 @@
-Program created just for the sake of it. Not ideal, have few ideas how to improve it, but no time. 
+Program created purely for educational purposes. I wanted to build *something* that manages files, so using the os library in python, the Desktop Cleaner was born. It is a command prompt based application, that scan the desktop (or other directories) for files to clean.
