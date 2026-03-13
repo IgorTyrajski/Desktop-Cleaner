@@ -44,7 +44,7 @@ def func4():
 
     pathNew = os.path.join(glb.DirectoryPath, glb.folderNewName)
     if len(glb.FilesToClean) != 0:
-        print("Znaleziono pliki do przeniesienia:")
+        print("These files were found to be cleaned:")
         if not os.path.isdir(pathNew):
             os.mkdir(pathNew)
         for file in glb.FilesToClean:
@@ -54,7 +54,7 @@ def func4():
             except:
                 print(f"A problem has occurred when trying to move the file: {file.name}")
     else:
-        print("Nie znaleziono plików to przeniesienia")
+        print("No files to be cleaned have been found")
     input("Press ENTER to continue...")
 
 
